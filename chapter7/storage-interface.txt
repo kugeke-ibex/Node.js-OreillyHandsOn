@@ -1,0 +1,22 @@
+・fetchAll()
+-> すべてのToDoを取得する
+-> ToDoの配列で解決されるPromiseインスタンスを返す
+
+・fetchByCompleted(completed)
+-> 完了済みかどうかのフィルタリングしてToDoを取得する
+-> 完了済みのもののみ取得したければcompletedにtrueを、未完了のもののみ取得したければcompletedにfalseを指定する
+-> ToDoの配列で解決されるPromiseインスタンスを返す
+
+・create(todo)
+-> 引数に与えたToDoを作成する
+-> undefinedで解決されるPromiseインスタンスを返す
+
+・update(id, update)
+-> 第一引数で指定したIDのToDoに、第二引数のオブジェクトをマージして更新する
+-> 更新後にToDoで解決されるPromiseインスタんを返す
+-> 指定されたIDのToDoが存在しない場合は、nullで解決されるPromiseインスタンスを返す
+
+・remove(id)
+-> 引数で指定したIDのToDoを削除する
+-> 削除したToDoのIDで解決されるPromiseインスタンスを返す
+-> 指定されたIDのToDoが存在しない場合は、nullで解決されるPromiseインスタンスを返す。

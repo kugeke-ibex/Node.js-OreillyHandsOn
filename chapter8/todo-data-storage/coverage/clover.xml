@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1673151699869" clover="3.2.0">
+  <project timestamp="1673151699869" name="All files">
+    <metrics statements="117" coveredstatements="85" conditionals="32" coveredconditionals="18" methods="50" coveredmethods="35" elements="199" coveredelements="138" complexity="0" loc="117" ncloc="117" packages="4" files="4" classes="4"/>
+    <package name="todo-data-storage">
+      <metrics statements="37" coveredstatements="25" conditionals="12" coveredconditionals="8" methods="11" coveredmethods="7"/>
+      <file name="app.js" path="/Users/kugeke/Development/Node.js/OreillyHandsOn/chapter8/todo-data-storage/app.js">
+        <metrics statements="37" coveredstatements="25" conditionals="12" coveredconditionals="8" methods="11" coveredmethods="7"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="5" type="stmt"/>
+        <line num="73" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="todo-data-storage.file-system">
+      <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="2" methods="14" coveredmethods="14"/>
+      <file name="index.js" path="/Users/kugeke/Development/Node.js/OreillyHandsOn/chapter8/todo-data-storage/file-system/index.js">
+        <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="2" methods="14" coveredmethods="14"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="21" type="stmt"/>
+        <line num="8" count="59" type="stmt"/>
+        <line num="9" count="21" type="stmt"/>
+        <line num="11" count="38" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="17" count="18" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="32" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="15" type="stmt"/>
+        <line num="38" count="14" type="stmt"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="todo-data-storage.leveldb">
+      <metrics statements="29" coveredstatements="11" conditionals="6" coveredconditionals="0" methods="11" coveredmethods="1"/>
+      <file name="index.js" path="/Users/kugeke/Development/Node.js/OreillyHandsOn/chapter8/todo-data-storage/leveldb/index.js">
+        <metrics statements="29" coveredstatements="11" conditionals="6" coveredconditionals="0" methods="11" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="todo-data-storage.sqlite">
+      <metrics statements="32" coveredstatements="30" conditionals="10" coveredconditionals="8" methods="14" coveredmethods="13"/>
+      <file name="index.js" path="/Users/kugeke/Development/Node.js/OreillyHandsOn/chapter8/todo-data-storage/sqlite/index.js">
+        <metrics statements="32" coveredstatements="30" conditionals="10" coveredconditionals="8" methods="14" coveredmethods="13"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="33" type="stmt"/>
+        <line num="16" count="33" type="stmt"/>
+        <line num="19" count="33" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="39" count="31" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="11" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="10" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="14" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="61" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="68" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="74" count="15" type="stmt"/>
+        <line num="75" count="15" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
